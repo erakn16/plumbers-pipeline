@@ -113,10 +113,10 @@ export default function MarketingPage() {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-4 auto-rows-[300px]">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:auto-rows-[300px]">
               
               {/* Feature 1: Large Box */}
-              <div className="md:col-span-2 md:row-span-2 rounded-3xl bg-card border border-border p-8 flex flex-col justify-between overflow-hidden relative group shadow-sm hover:shadow-xl transition-shadow duration-500">
+              <div className="md:col-span-2 md:row-span-2 rounded-3xl bg-card border border-border p-8 flex flex-col justify-between overflow-hidden relative group shadow-sm hover:shadow-xl transition-shadow duration-500 min-h-[280px] md:min-h-0">
                 <div className="absolute top-0 right-0 p-6 opacity-[0.06] group-hover:opacity-[0.15] scale-90 group-hover:scale-100 transition-all duration-700 ease-out">
                   <Wrench className="w-48 h-48 text-primary" strokeWidth={1} />
                 </div>
@@ -124,7 +124,7 @@ export default function MarketingPage() {
                   <div className="bg-primary/10 w-12 h-12 rounded-xl flex items-center justify-center mb-6">
                     <Briefcase className="w-6 h-6 text-primary" />
                   </div>
-                  <h4 className="text-2xl font-bold mb-3 text-foreground tracking-tight">Full-Cycle Job Management</h4>
+                  <h4 className="text-xl md:text-2xl font-bold mb-3 text-foreground tracking-tight">Full-Cycle Job Management</h4>
                   <p className="text-muted-foreground max-w-sm">
                     Create jobs from a call or a lead, assign them to a tech, and track status from open through scheduled to complete. Everything carries notes, photos, parts used, and time on-site natively.
                   </p>
@@ -132,7 +132,7 @@ export default function MarketingPage() {
               </div>
 
               {/* Feature 2: Standard Box */}
-              <div className="md:col-span-2 rounded-3xl bg-card border border-border p-8 flex flex-col justify-between relative overflow-hidden group shadow-sm hover:shadow-xl transition-shadow duration-500">
+              <div className="md:col-span-2 rounded-3xl bg-card border border-border p-8 flex flex-col justify-between relative overflow-hidden group shadow-sm hover:shadow-xl transition-shadow duration-500 min-h-[280px] md:min-h-0">
                 <div className="z-10">
                   <div className="bg-primary/10 w-10 h-10 rounded-lg flex items-center justify-center mb-4">
                     <DollarSign className="w-5 h-5 text-primary" />
@@ -145,12 +145,12 @@ export default function MarketingPage() {
               </div>
 
               {/* Feature 3: Standard Box */}
-              <div className="md:col-span-1 rounded-3xl bg-card border border-border p-8 flex flex-col justify-between group shadow-sm hover:shadow-md transition-shadow duration-300">
+              <div className="md:col-span-1 rounded-3xl bg-card border border-border p-8 flex flex-col justify-between group shadow-sm hover:shadow-md transition-shadow duration-300 min-h-[280px] md:min-h-0">
                 <div className="bg-primary/10 w-10 h-10 rounded-lg flex items-center justify-center mb-4">
                   <MapPin className="w-5 h-5 text-primary" />
                 </div>
                 <div>
-                  <h4 className="font-bold mb-2 text-foreground">Permit Tracking</h4>
+                  <h4 className="text-xl md:text-base font-bold mb-2 text-foreground">Permit Tracking</h4>
                   <p className="text-muted-foreground text-sm leading-relaxed">
                     Attach permit numbers & inspections physically to the job record. Not lost in email.
                   </p>
@@ -158,12 +158,12 @@ export default function MarketingPage() {
               </div>
 
               {/* Feature 4: Standard Box */}
-              <div className="md:col-span-1 rounded-3xl bg-card border border-border p-8 flex flex-col justify-between group shadow-sm hover:shadow-md transition-shadow duration-300">
+              <div className="md:col-span-1 rounded-3xl bg-card border border-border p-8 flex flex-col justify-between group shadow-sm hover:shadow-md transition-shadow duration-300 min-h-[280px] md:min-h-0">
                 <div className="bg-primary/10 w-10 h-10 rounded-lg flex items-center justify-center mb-4">
                   <Smartphone className="w-5 h-5 text-primary" />
                 </div>
                 <div>
-                  <h4 className="font-bold mb-2 text-foreground">Field Ready UI</h4>
+                  <h4 className="text-xl md:text-base font-bold mb-2 text-foreground">Field Ready UI</h4>
                   <p className="text-muted-foreground text-sm leading-relaxed">
                     Techs access details, log components, and mark jobs done straight from mobile.
                   </p>
