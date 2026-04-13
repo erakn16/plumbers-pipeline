@@ -13,6 +13,7 @@ import {
 import Link from "next/link";
 import { BrandLogo } from "@/components/brand-logo";
 import { DemoButton } from "@/components/demo-button";
+import { PipelineVector } from "@/components/pipeline-vector";
 
 export default function MarketingPage() {
   return (
@@ -196,15 +197,8 @@ export default function MarketingPage() {
                   </div>
                 </div>
               </div>
-              <div className="relative aspect-square md:aspect-video lg:aspect-square bg-zinc-50 dark:bg-zinc-950 rounded-3xl overflow-hidden border border-border shadow-inner">
-                <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent"></div>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-48 h-48 border border-primary/20 rounded-full animate-[spin_20s_linear_infinite] flex items-center justify-center">
-                    <div className="w-32 h-32 border border-primary/40 rounded-full flex items-center justify-center animate-[spin_10s_linear_infinite_reverse]">
-                       <div className="w-16 h-16 bg-primary/20 rounded-full backdrop-blur-xl border border-primary/50 shadow-[0_0_30px_rgba(0,102,255,0.3)]"></div>
-                    </div>
-                  </div>
-                </div>
+              <div className="relative aspect-square md:aspect-video lg:aspect-square">
+                <PipelineVector />
               </div>
             </div>
           </div>
